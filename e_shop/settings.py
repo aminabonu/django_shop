@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'e_shop.wsgi.application'
 
 DATABASES = {
 'default':  { 'ENGINE':'django.db.backends.postgresql_psycopg2',
-                'NAME': ‘df3ms6o6otnigl’,
+                'NAME': 'df3ms6o6otnigl',
                 'USER': 'maiiyzeendzbgx',
                 'PASSWORD': '0a8321cf52cba2779e20581d69717b64b3add679ca1aedeef7a0fcb5c186b5ef',
                 'HOST': 'ec2-54-87-179-4.compute-1.amazonaws.com',
