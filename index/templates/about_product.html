@@ -1,0 +1,11 @@
+{{ product.product_name }}
+{{ product.product_description}}
+{{ product.product_price }}
+{{ product.product_category }}
+
+Осталось {{ product.product_quantity }}
+<form method="POST">
+    {% csrf_token %}
+    <input type="number" name="product_quantity">
+    <button>Заказать</button>
+</form>

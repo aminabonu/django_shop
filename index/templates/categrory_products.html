@@ -1,0 +1,6 @@
+{% for product in products %}
+    <img src="/{{ product.product_photo }}" alt="" />
+    Product: <a href="/{{ product.id }}">{{ product.product_name }}</a><br>
+    Price: {{ product.product_price }}<br>
+    Category: {{ product.product_category }}<br>
+{% endfor %}
